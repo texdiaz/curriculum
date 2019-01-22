@@ -207,6 +207,128 @@ In a [Codepen](https://codepen.io/pen/), create three buttons. When moving the m
 - [CSS Properties Reference List](http://www.stylinwithcss.com/resources_css_properties.php)
 
 
+## 3. Layout and Position
+
+
+#### 3.1. Box Model
+
+> All HTML elements can be considered as boxes. The CSS box model is essentially a box that wraps around every HTML element. 
+It consists of: margins, borders, padding, and the actual content. ([w3Schools]( https://www.w3schools.com/css/css_boxmodel.asp)).
+
+A web page is like a set of boxes one inside another. If we think of each element as a rectangle it will be much easier to visualize how the structure of a web is composed. 
+
+The core of the box is defined by the **width** and **height** of an element. 
+**Padding** and then **border** expand the dimensions of the box. 
+In addition, any **margin** we have specified will follow the border. 
+
+![MDN Image Model Box](https://mdn.mozillademos.org/files/13647/box-model-standard-small.png "Model Box")
+[Source Image: MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Box_model)
+
+For example, to calculate the height of an element, we use this formula:
+
+`margin-top + border-top + padding-top + height + padding-bottom + border-bottom + margin-bottom`
+
+Some programmers prefer not to think about these rules and use the [box-sizing property](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing). The value **border-box** includes padding and border in the element's total width and height.
+
+````css
+.container {
+  box-sizing: border-box;
+}
+````
+###### More info
+
+- [Opening the Box Model](https://learn.shayhowe.com/html-css/opening-the-box-model/)
+
+- [Difference between margin and padding](https://stackoverflow.com/questions/5958699/difference-between-margin-and-padding/50060282)
+
+
+#### 3.2. Display Property
+
+`display` property defines how will an HTML element be displayed, how will it be placed on the page and how will the rest of the elements be placed in relation to the element. 
+Browsers automatically assign a default display mode to all HTML elements, but through CSS we can change its appearance. 
+
+- **Display block**
+
+> Displays an element as a block element -like `<p>`-. 
+It starts on a new line, and takes up the whole width. ([w3schools](https://www.w3schools.com/cssref/pr_class_display.asp))
+
+````css
+.block {
+display: block;
+}
+````
+There are certain elements that are displayed by default as a block element. For example: 
+`<div>, <fieldset>, <footer>, <form>, <h1>, <header>, <hr>, <li>, <main>, <nav>, <ol>, <ul>, <section>, <table>`. 
+
+You can play with [Adalab ´s Codepen](https://codepen.io/adalab/pen/WXQgrq).
+
+- **Display inline**
+> Displays an element as an inline element (like <span>). Any height and width properties will have no effect
+
+````css
+.inline {
+display: inline;
+}
+````
+
+There are certain items that are displayed by default as a block element. For example: 
+`<a>, <strong>, <span>, <button>, <input>, <label>, <select>, <textarea>`.
+
+You can play with [Adalab ´s Codepen](https://codepen.io/adalab/pen/vWNzLj).
+
+- **Display inline-block**
+> Displays an element as an inline-level block container. The element itself is formatted as an inline element, but you can apply height and width values.
+
+````css
+.inline-block {
+display: inline-block;
+}
+````
+You can play with [Adalab ´s Codepen](https://codepen.io/adalab/pen/KydxdP).
+
+- **Display none**
+
+The element is completely removed.
+
+```css
+.hidden {
+  display: none;
+}
+```
+You can play with [Adalab ´s Codepen](https://codepen.io/adalab/pen/GOpXmw).
+
+###### Exercise
+
+With this [Adalab ´s Codepen](https://codepen.io/adalab/pen/QOjVye):
+
+- Use the `<mark>` tag within several paragraphs and explain what it is for and how it works.
+- Within a paragraph of text include a 100x100 image and explain how the content is distributed.
+- Between two paragraphs add a 200x200 image and explain how the content is distributed.
+- Use the none property to remove any element. 
+
+
+#### 3.3. Position Property
+
+> The position property specifies the type of positioning method used for an element
+ (static, relative, fixed, absolute or sticky) ([w3schools](https://www.w3schools.com/css/css_positioning.asp)).
+
+- **static**. The default value.
+- **relative**. An element’s new position relative to its normal position. 
+- **absolute**. The element is positioned relative to its first positioned ancestor element. 
+- **fixed**. It is similar to absolute, but they are only relative to the `<html>` document, not any other parents. That is, the element is positioned relative to the browser window.
+
+###### More info
+
+- [Video to understand position property](https://www.youtube.com/watch?v=kowh52NmZis)
+- [How to use the position property in CSS to align elements](https://medium.freecodecamp.org/how-to-use-the-position-property-in-css-to-align-elements-d8f49c403a26)
+
+#### 3.4. Intro to Flexbox
+
+#### 3.5. Intro to CSS Grid
+
+
+
+
 
 
 
