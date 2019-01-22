@@ -1,6 +1,24 @@
 # CSS
 
-## 1. Intro
+
+1. [Intro](#intro)
+    1. Syntax Structure
+    2. How to tie CSS into HTML
+    
+2. [Selectors](#selectors): label, class, id, pseudo-classes
+
+3. [Layout and position](#layout)
+   1. Box Model
+   2. Display property
+   3. Position property
+   4. Intro to flexbox
+   5. Intro to grid
+
+4. [Cascade](#cascade)
+
+5. [DevTools](#devtools)
+
+## <a name="intro"></a> 1. Intro
 
 CSS stands for **Cascading Style Sheets** and it describes how HTML elements are to be displayed on screen. It is used to describe the presentation of Web pages -including colors, layout, and fonts- and to adapt the view to different types of devices, as explained in [w3C](https://www.w3schools.com/css/css_intro.asp).
 
@@ -93,7 +111,7 @@ You can do it with the tag `<style>`.
     }
     ````
 
-## 2. Selectors
+## <a name="selectors"></a> 2. Selectors
 
 As was shown above, selectors can be used to change the appearance of an element. 
 
@@ -207,7 +225,7 @@ In a [Codepen](https://codepen.io/pen/), create three buttons. When moving the m
 - [CSS Properties Reference List](http://www.stylinwithcss.com/resources_css_properties.php)
 
 
-## 3. Layout and Position
+## <a name="layout"></a> 3. Layout and Position
 
 
 #### 3.1. Box Model
@@ -329,7 +347,7 @@ Flexbox is a layout model to positionate HTML elements in a web page.
 #### 3.5. Intro to CSS Grid
 
 
-## 4. Cascading
+## <a name="cascade"></a> 4. Understanding Cascade
 
 
 Several selectors are sometimes applied to the same element. The [cascade](https://developer.mozilla.org/en-US/docs/Web/CSS/Cascade)
