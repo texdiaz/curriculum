@@ -324,11 +324,52 @@ With this [Adalab ´s Codepen](https://codepen.io/adalab/pen/QOjVye):
 
 #### 3.4. Intro to Flexbox
 
+Flexbox is a layout model to positionate HTML elements in a web page. 
+
 #### 3.5. Intro to CSS Grid
 
 
+## 4. Cascading
 
 
+Several selectors are sometimes applied to the same element. The [cascade](https://developer.mozilla.org/en-US/docs/Web/CSS/Cascade)
+is an algorithm that defines how to combine property values originating from different sources.
+
+There are three main sources:
+
+- **Importance**. An `!important` rule works like this:
+
+*style.css* 
+````css
+h2 {
+    color: blue !important;
+}
+.title {
+    color: green;
+}
+````
+*index.html* 
+````html
+<h2 class="title">This text will be blue</h2>
+````
+
+On very rare occasions we will use `!important`. You might want to read the [implications of using !importance](https://stackoverflow.com/questions/3706819/what-are-the-implications-of-using-important-in-css).
+
+- **Specificity**. The more specific a selector is, the more force they will have their rules over the others.
+
+- **Order**. If several selectors have the same importance and specificity, 
+the styles that are at the end of the CSS file take precedence over the ones above. 
+This happens because the CSS is ‘read’ from top to bottom.
+ 
+###### Exercise
+
+- [Specificity Practice Ada Developers Academy](https://github.com/Ada-Developers-Academy/textbook-curriculum/blob/master/05-html-css/exercises/specificity-practice.md)
+
+###### More info
+
+- [CSS Specificity: Things You Should Know](https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/)
+
+- [CSS Specificity Wars](https://stuffandnonsense.co.uk/archives/css_specificity_wars.html)
 
 
 
