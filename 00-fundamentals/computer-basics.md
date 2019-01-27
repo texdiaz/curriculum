@@ -1,6 +1,6 @@
-#Computer basics
+# Computer basics
 
-##Shortcuts
+## Shortcuts
 
 When dealing with computers on a daily basis, you need to know that the keyboard and the mouse are your best friends. And if you want to be as fast as you can get, you should try to use your keyboard way more than the mouse. Why would you realy on two buttons when you have **10 fingers on one whole keyboard**?
 
@@ -24,12 +24,12 @@ This is great, but first, we need to get used to the most basic shortcuts we can
 |`ctrl + q` | Normally, this command is used to close the application you're currently in.|
 
 
-######Exercise
+###### Exercise
 
 Practice with these commands as long as you need to get familiarized with them. Try to copy, cut and paste files, text fragments, whatever comes to your mind. Try to open files, close them, etc. Try to use all the commands at least once.
 ___
 
-##How the web works
+## How the web works
 
 Have you ever wondered what happens when you open your browser, type in any address ([Madrid For Refugees](http://madridforrefugees.org/es/) web for instance), and in just a few seconds (depending on your connection speed of course) you see the [above-the-fold](https://thetechreviewer.com/tech-tips/web-design-101-what-does-above-the-fold-mean/) content? We take this process for granted but let me tell you, there are **so many things** going on that it feels like magic when you see that everything happens within a few parts of a second. Let's dive in!
 
@@ -42,7 +42,7 @@ For a webpage to load in your computer, and to keep it short, we need 5 things:
 
 If we had to chronologically lay out what happens when we type an address in our web browser and see it displayed in our screen, we could divide the process as it follows:
 
-#####DNS
+##### DNS
 First of all, you have to take into account that computers are really (like **REALLY**) bad with human language. At their core, they only understand two things: 1 (on) and 0 (off) (what is called [binary system](https://www.computerhope.com/jargon/b/binary.htm)) so every layer that becomes more understandable for us dumb humans, is another layer of abstraction that we need to get rid off for the computer to understand what we really want it to do.
 
 Having said this, you should imagine by now that the words that you're going to type don't really mean anything to the web server that is going to serve you all the content you just requested. Websites are stored in these web servers (other computers really, but generally without a GUI and permanently running in massive warehouses) and have a unique **IP address** associated (Internet Protocol address). These IP addresses are a group of numbers that generally look something like this *107.95.207.18*. Rings a bell? Think of any other thing on your daily life that looks like that... phone numbers anyone?
@@ -71,7 +71,7 @@ In short, we can identify 5 steps to answer the question of the title:
 
 As you imagine, this is a really summarized example of what happens when you want a website to be displayed. However, this will probably be more than enough to get you going through the course. In any case, if you want to lear more, go to the [more info](#more-info) section
 
-######Exercise
+###### Exercise
 
 Even though you don't know yet, there's an application in your computer called **terminal** that will be extremely helpful for you in the following months. Don't worry about it yet, just trust me and open it now, don't be scared!
 
@@ -86,7 +86,7 @@ ___
 
 
 
-#####More info
+##### More info
 
 [How internet works](https://www.youtube.com/watch?v=e4S8zfLdLgQ)
 [Client and servers](https://www.youtube.com/watch?v=SwLdKeC8scE)
