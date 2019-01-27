@@ -89,5 +89,7 @@ ___
 ##### More info
 
 [How internet works](https://www.youtube.com/watch?v=e4S8zfLdLgQ)
+
 [Client and servers](https://www.youtube.com/watch?v=SwLdKeC8scE)
+
 [DNS and IP Address](https://computer.howstuffworks.com/dns1.htm)
