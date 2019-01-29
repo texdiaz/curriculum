@@ -30,7 +30,7 @@ and laying out our content in multiple columns.
 - JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else.
 
 
-##Interpreted versus compiled code
+## Interpreted versus compiled code
 
 
 You might hear the terms interpreted and compiled in the context of programming.
@@ -42,7 +42,7 @@ Compiled languages on the other hand are transformed (compiled) into another for
 
 JavaScript is a lightweight interpreted programming language. Both approaches have different advantages, which we won't discuss at this point.
 
-##Server-side versus client-side code
+## Server-side versus client-side code
 
 You might also hear the terms server-side and client-side code, especially in the context of web development.
 Client-side code is code that is run on the user's computer when a web page is viewed, the page's client-side code is downloaded,
@@ -54,7 +54,7 @@ Examples of popular server-side web languages include PHP, Python, Ruby, ASP.NET
 JavaScript can also be used as a server-side language, for example in the popular Node.js environment.
 
 
-##Difference between markup language and programming language
+## Difference between markup language and programming language
 
 
 **Review:** 
@@ -96,7 +96,7 @@ These tools do a range of things, from inspecting currently-loaded HTML, CSS and
 
 ![devTool](./DevTools.jpg)
 
-##The JavaScript console
+## The JavaScript console
 
 The JavaScript console is an incredibly useful tool for debugging JavaScript that isn't working as expected. 
 It allows you to run lines of JavaScript against the page currently loaded in the browser, and reports the errors encountered as the browser tries to execute your code.
@@ -132,7 +132,7 @@ Next, go to your text editor and add the following in your head — just before 
 </script>
 ```
 
-##External JavaScript
+## External JavaScript
 
 1. First, create a new file in the same directory as your sample HTML file. 
 Call it script.js make sure it has that .js filename extension,
