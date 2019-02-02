@@ -1,4 +1,4 @@
-#Try the following code in console and look what happens
+# Try the following code in console and look what happens
 
 0. **Review console**
 ```
