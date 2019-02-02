@@ -7,14 +7,21 @@
     console.log(2*3);
 ```
 
-1. **length**
+1. **Using the symbol +**
+```
+    console.log("Example" + "message");
+    console.log(1 + 1);
+
+```
+
+2. **length** 
 ```
     console.log("message".length);
     console.log("messageeeeeeeeeeeeeeeeeee".length);
     console.log("m".length);
 ```
 
-2. **typeof**
+3. **typeof**
 ```
     console.log(typeof "messages");
     console.log(typeof 1);
@@ -23,19 +30,19 @@
     console.log(typeof false);
 ```
 
-3. **toUpperCase**
+4. **toUpperCase**
 ```
    console.log("minus".toUpperCase());
    console.log("miNus".toUpperCase());
 ```
 
-4. **toLowerCase**
+5. **toLowerCase**
 ```
    console.log("AHHHHHHHHHHH".toLowerCase());
    console.log("BIG".toLowerCase());
 ```
 
-5. **===**
+6. **===**
 ```
     console.log(1+1 === 2);
     console.log(1+1 === 3);
@@ -43,7 +50,7 @@
     console.log("javascript" === "java");   
 ```
 
-6. **Number()**
+7. **Number()**
 ```
     console.log("1");
     console.log(Number("1"));
@@ -56,14 +63,16 @@ Alert Spoiler Answers!!
 ----------------------
 **First try the code before seeing the solution**
 
-1. The **length** property of a String object represents the length of a string with a number.
+0. The **+** operator behaves different if is next to strings or numbers
 
-2. The **typeof** operator returns a string indicating the type the input.
+1. The **length** property of a String returns the number of characters in this string.
 
-3. The **toUpperCase** became all char of one string to upper case.
+2. The **typeof** operator returns the type the input.
 
-4. The **toLowerCase** became all char of one string to lower case.
+3. **toUpperCase** all characters become upper case.
 
-5. The **===** operator compare values and types.
+4. **toLowerCase** all characters become lower case.
 
-6. The **Number()** function converts the input in a number that represents the object's value. If the value cannot be converted to a legal number, NaN is returned.
+5. The **===** operator compare two values, return true if equals, false otherwise.
+
+6. **Number()** converts the input in a number. If the value cannot be converted to a legal number, NaN is returned.
