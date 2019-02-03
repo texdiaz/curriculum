@@ -27,7 +27,7 @@ let six  = 6;
 
 If you omit var or let you will get a global variable, which can lead to all sorts of problems. JUST DON'T DO IT!
 
-`var` and `let` mean subtly different things, both having to do with scope which we'll get to later. A good rule of thumb is to use `let` unless you are working with an older version of the JavaScript interpreter.
+`var` and `let` mean subtly different things, both having to do with [scope](https://stackoverflow.com/questions/762011/whats-the-difference-between-using-let-and-var-to-declare-a-variable). A good rule of thumb is to use `let` unless you are working with an older version of the JavaScript interpreter.
 
 ## Declare variables using const
 You can declare a constant with the `const` operator. Constants are like variables declared with `let`, but cannot change their value through reassignment.
@@ -39,8 +39,20 @@ FIVE = 6;  // TypeError: Assignment to constant variable.
 
 **Note** that each line of JavaScript code ends with the `;`. This is optional for the code to work (sometimes, and the rules are inconsistent) but **not** optional when taking into consideration style guidelines.
 
-Variable typing in Javascript
+Naming variables Javascript
 --------------------------------
+
+To check the valid characters for JavaScript variable names, you should follow the below given naming conventions, which discuss about other rules to name a variable:
+
+- Name can begin with `$` and `_` characters, for example, `_result`.
+- You should not use any of the JavaScript reserved keywords as a variable name. For example, `break` or `boolean` variable names are not valid. Check the next table:
+
+![variable_naming](./variable_naming.png)
+
+- JavaScript variable names should not start with a numeral `(0-9)`. They must begin with a letter or an underscore character. For example, `123test` is an invalid variable name but `_123test` is a valid one.
+
+- JavaScript variable names are case-sensitive. For example, `Name` and`name` are two different variables.
+
 
 Numeric operators in Javascript
 --------------------------------
@@ -87,7 +99,7 @@ alert( 8 % 3 ); // 2 is a remainder of 8 divided by 3
 alert( 6 % 3 ); // 0 is a remainder of 6 divided by 3
 ```
 
-Exponentiation %
+Exponentiation **
 --------------------------------
 The exponentiation operator `**` is a recent addition to the language.
 
@@ -120,7 +132,7 @@ let counter = 2;
 counter++;      // works the same as counter = counter + 1, but is shorter
 alert( counter ); // 3
 ```
-- Decrement -- decreases a variable by 1:
+- `Decrement` -- decreases a variable by 1:
 ```
 let counter = 2;
 counter--;      // works the same as counter = counter - 1, but is shorter
@@ -193,7 +205,7 @@ Parentheses override any precedence, so if we’re not satisfied with the implic
 
 There are many operators in JavaScript. Every operator has a corresponding precedence number. The one with the larger number executes first. If the precedence is the same, the execution order is from left to right.
 
-Here’s an extract from the precedence table[precedence table](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence):
+Here’s an extract from the [precedence table](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence):
 
 ![operators_precedence](./operators_precedence.png)
 
