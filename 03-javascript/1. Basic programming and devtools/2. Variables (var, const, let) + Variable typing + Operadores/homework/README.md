@@ -2,7 +2,8 @@
 
 Working with variables
 
--Exercise 1 - The fortune teller 
+Exercise 1 - The fortune teller
+------------------- 
 
 The idea of this exercise is to show in the console a message which talks about your future fortune in some profession:
 
@@ -14,7 +15,8 @@ Store the following into variables "let": `number of children`, `partner's name`
 Output your fortune to the screen like so: "You will be a X in Y, and married to Z with N kids."
 ```
 
--Exercise 2 - The Lifetime Supply Calculator
+Exercise 2 - The Lifetime Supply Calculator
+------------------
 
 Ever wonder how much a "lifetime supply" of your favorite snack is? Wonder no more!
 ```
