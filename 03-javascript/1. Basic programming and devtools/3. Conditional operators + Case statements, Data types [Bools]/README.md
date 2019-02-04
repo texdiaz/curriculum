@@ -124,7 +124,7 @@ Example:
  
 ## 6. More Operators
  
-   - This operator **"<", ">", "<=", ">="** are identical to those that define mathematics: greater than (>), less than (<), greater or equal (> =), less or equal (<=).
+   - This operators **"<", ">", "<=", ">="** are identical to those that define mathematics: greater than (>), less than (<), greater or equal (> =), less or equal (<=).
    They are normally used to compare numbers.
    
 Example:
