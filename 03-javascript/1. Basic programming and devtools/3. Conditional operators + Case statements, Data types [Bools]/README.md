@@ -8,8 +8,8 @@ which allow different actions by changing control flow depending on whether a pr
     console.log(boolean); // show true
 ```
 
-#1. Structure if. 
-Possibly the if is structure most use in the languages programming.
+## 1. Structure if. 
+Possibly the **if** is structure most use in the languages programming.
 Use the if to specify a block of JavaScript code to be executed if a condition is true.
 The syntax of if is:
 
@@ -21,7 +21,7 @@ if (condition)
 }
 ```
 
-#2. Equal operator
+## 2. Equal operator
 
 The **===** operator compare two values, return true if equals, false otherwise.
     
@@ -32,7 +32,7 @@ The **===** operator compare two values, return true if equals, false otherwise.
     console.log("javascript" === "java"); // show false
 ```
 
-#3. if + Equal operator
+## 3. if + Equal operator
 
 ```javascript
     let boolean = true;
@@ -49,7 +49,7 @@ The **===** operator compare two values, return true if equals, false otherwise.
 When you combine if + operators you start to create behavior. 
 For example when check if result is 6 you create one behavior how result of your mathematics operation.
     
-#4. Structure if...else.
+## 4. Structure if...else.
 
 The if executes a block if a specified condition is true. If the condition is false, another block can be executed.
 
@@ -73,8 +73,8 @@ The if executes a block if a specified condition is true. If the condition is fa
     - if you examResult is 5 you should print in "Sufficient".
     - if you examResult is 4 you should print in "Suspended".
 
- #5 Structure switch. 
- The switch is used to perform different block or cases based on different conditions.
+ ## 5 Structure switch. 
+ The **switch** is used to perform different block or cases based on different conditions.
  
  Syntax
 ```javascript
@@ -122,9 +122,9 @@ Example:
     }
 ```
  
- #6. More Operators
+## 6. More Operators
  
-   - This operator "<", ">", "<=", ">=" are identical to those that define mathematics: greater than (>), less than (<), greater or equal (> =), less or equal (<=).
+   - This operator **"<", ">", "<=", ">="** are identical to those that define mathematics: greater than (>), less than (<), greater or equal (> =), less or equal (<=).
    They are normally used to compare numbers.
    
 Example:
@@ -152,7 +152,7 @@ Example:
     }
 ```
     
-   - NOT. When the value is true become in false and when the value is false become in true."Not" change the boolean value to opposite.
+   - **NOT**. When the value is true become in false and when the value is false become in true."Not" change the boolean value to opposite.
    NOT is written "!". if you want the opposite one operator you can do it but need write the operator between parenthesis. 
    
    Example:
@@ -174,7 +174,7 @@ Example:
        console.log(2+2 !== 4); // show false
    ```
 
-- The AND operator obtains its result by combining two Boolean values. The operator is indicated by the "&&" symbol and its result is only true if both operands are true,  otherwise, returns false.
+- The **AND** operator obtains its result by combining two Boolean values. The operator is indicated by the "&&" symbol and its result is only true if both operands are true,  otherwise, returns false.
 
 Example:
 ```javascript
@@ -187,7 +187,7 @@ Example:
     }
 ```
 
-- The OR operator also combines two Boolean values. The operator is indicated by the symbol || and its result is true if one of the two operands is true, otherwise is false.
+- The **OR** operator also combines two Boolean values. The operator is indicated by the symbol || and its result is true if one of the two operands is true, otherwise is false.
 Example:
 ```javascript
     console.log(true || true); //show true
