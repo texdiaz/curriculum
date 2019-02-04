@@ -167,7 +167,7 @@ Example:
        console.log(!("javascript" === "javascript")); // show false
    ```
    
-   - NOT Equal. "!==" almost is combination **===** with **!** the result is not equal.
+   - **NOT Equal**. "!==" almost is combination **===** with **!** the result is not equal.
       Example:    
    ```javascript
        console.log("javascript" !== "java"); // show true
@@ -201,6 +201,7 @@ Example:
 ```
 
 - You can concatenate conditionals.
+
    Example:    
 ```javascript
     console.log(!true); //show false
