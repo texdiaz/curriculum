@@ -7,12 +7,12 @@ Exercise 1 - The fortune teller
 
 The idea of this exercise is to show in the console a message which talks about your future fortune in some profession:
 
-Example message output: "You will be Teacher in New York and married to Natalie Portman with 3 kids"
+Example message output: "You will be Teacher in New York and working with Bill Gates in 3 different projects"
 
-Store the following into variables "let": `number of children`, `partner's name`, `geographic location`, `job title`.
+Store the following into variables "let": `number of projects`, `partner's name`, `geographic location`, `job title`.
 
 ```
-Output your fortune to the screen like so: "You will be a X in Y, and married to Z with N kids."
+Output your fortune to the screen like so: "You will be a X in Y, and working with Z in N different projects."
 ```
 
 Exercise 2 - The Lifetime Supply Calculator
@@ -35,7 +35,7 @@ Ever wonder how much a "lifetime supply" of your favorite snack is? Wonder no mo
 
 
 ```javascript
-function Main{
+class Main{
 	execute(){
 		// JavaScript goes here
 		console.log("Hello world");
