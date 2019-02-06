@@ -64,7 +64,31 @@ The if executes a block if a specified condition is true. If the condition is fa
   console.log(message);
 ```
 
- - Exercise for class. Write one code with "if", where from one variable "examResult" where:
+## 5. Nested if...else
+
+Placing If inside another IF is called JavaScript Nested If. The JavaScript Else Statement allows us to print different statements depending upon the expression result (TRUE, FALSE). Sometimes we have to check even further, when the condition is TRUE. In these situation, we can use JavaScript **Nested IF** but be careful while using it.
+
+Example:
+```javascript
+let time = "morning";
+  if( time === "morning" )
+  {
+    console.log("Good morning"); 
+  }
+  else
+  {
+    if (time === "evening" )
+    {
+        console.log("Good evening");
+    }
+    else
+    {
+        console.log("Good night");
+    }
+  }
+```
+## 5.1 Exercise for class
+ Write one code with "if", where from one variable "examResult" where:
     - if you examResult is 10 you should print in "Outstanding".
     - if you examResult is 9 you should print in "Excellent".
     - if you examResult is 8 you should print in "Notable".
@@ -73,7 +97,7 @@ The if executes a block if a specified condition is true. If the condition is fa
     - if you examResult is 5 you should print in "Sufficient".
     - if you examResult is 4 you should print in "Suspended".
 
- ## 5 Structure switch. 
+ ## 6. Structure switch. 
  The **switch** is used to perform different block or cases based on different conditions.
  
  Syntax
@@ -122,7 +146,7 @@ Example:
     }
 ```
  
-## 6. More Operators
+## 7. More Operators
  
    - This operators **"<", ">", "<=", ">="** are identical to those that define mathematics: greater than (>), less than (<), greater or equal (> =), less or equal (<=).
    They are normally used to compare numbers.
@@ -210,7 +234,7 @@ Example:
     console.log((!true || !false) && false); //show false
 ```
 
-#8 Summary
+##8. Summary
 
 Conditional Structure
 
@@ -218,6 +242,7 @@ Conditional Structure
 |-----------|---------------------------------------------------------------------------------------------------------------------|
 | if        | Use the if statement to specify a block of JavaScript code to be executed if a condition is true.                   |
 | if...else | The if executes a block if a specified condition is true. If the condition is false, another block can be executed. |
+| nested if...else | Placing If inside another IF is called JavaScript Nested If |
 | switch    | The switch is used to perform different block or cases based on different conditions                                |
 
 
