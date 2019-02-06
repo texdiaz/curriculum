@@ -25,7 +25,7 @@ Example:
 ![alert](alert.jpg)
 
 
-#Homework
+# Homework
 
  1. You ask "What are you name" for this use alert and print the next greeting with the user answer.
 
