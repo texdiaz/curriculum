@@ -165,7 +165,7 @@ as that's how it is recognized as JavaScript.
 in the file:
 
 ```javascript
-function Main{
+class Main{
 	execute(){
 		//this is one comment
 		// JavaScript goes here
