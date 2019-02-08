@@ -1,3 +1,8 @@
+# What is Control Flow?
+
+In computer programming, control flow or flow of control is the order function calls, instructions, and statements are executed or evaluated when a program is running. 
+Many programming languages have what are called control flow statements, which are used to determine what section of code is run in a program at any time.
+
 # Structure of control flow : Conditionals
 
 Boolean data type: Is a data type that has one of two possible values (usually denoted true and false),
