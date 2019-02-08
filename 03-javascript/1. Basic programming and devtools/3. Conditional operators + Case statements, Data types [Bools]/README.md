@@ -251,7 +251,7 @@ Conditional Operators
 | Operator | Name                     | Example                                   |
 |----------|--------------------------|-------------------------------------------|
 | ===      | Equal                    | console.log(true === true); //show true   |
-| !==      | Not                      | console.log(true === true); //show false  |
+| !==      | Not                      | console.log(true !== true); //show false  |
 | >        | greater than             | console.log(5 > 2); //show true           |
 | <        | less than                | console.log(2 < 5); //show true           |
 | >=       | greater than or equal to | console.log(7 >= 2); //show true          |
