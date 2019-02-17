@@ -30,16 +30,16 @@ Then print out the same integers in reverse order of input.
 
 ### Exercise 3 - Sum all content of an array
 
-Write a Java program to sum values of an array.
+Write a program to sum values of an array.
 
 ### Exercise 4 - Average
 
-Write a Java program to calculate the average value of array elements.
+Write program to calculate the average value of array elements.
 
 ### Exercise 5 - Remove
 
-Write a Java program to remove a specific element from an array.
+Write a program to remove a specific element from an array.
 
 ### Exercie 6 find values
 
-Write a Java program to find the maximum and minimum value of an array
+Write a program to find the maximum and minimum value of an array
