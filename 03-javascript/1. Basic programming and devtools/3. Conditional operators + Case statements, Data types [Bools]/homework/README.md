@@ -36,7 +36,8 @@ Example:
  4. You ask "How old are you?" and if the user is of legal age or mayor you show "you are of legal age" otherwise show "you aren't of legal age".
  
  5. You ask "How much is 1 + 1?" and before you ask "How much is 5 x 10?"
-        - if both answers are fail you show "Sorry, you you answered incorrectly all question. You can try again."
-        - if only answered correctly the first you show "Congratulations, you answered correctly the first question"
-        - if only answered correctly the second you show "Congratulations, you answered correctly the second question"
-        - if answered correctly all question you show "Congratulations, you answered correctly the second question"
+ 
+   - if both answers are fail you show "Sorry, you you answered incorrectly all question. You can try again."
+   - if only answered correctly the first you show "Congratulations, you answered correctly the first question"
+   - if only answered correctly the second you show "Congratulations, you answered correctly the second question"
+   - if answered correctly all question you show "Congratulations, you answered correctly all questions"
