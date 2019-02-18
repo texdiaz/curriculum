@@ -34,11 +34,11 @@ console.log('Walking east 20 step');
 ### Loop, for. loops through a block of code a number of times.
 It includes the following four important parts
     
-    ```javascript
-    for ([initialization]; [condition]; [final-expression]){
-        statement
-    }
-    ```
+```javascript
+for ([initialization]; [condition]; [final-expression]){
+    statement
+}
+```
     
 - **Initialization**.An expression (including assignment expressions) or variable declaration. Typically used to initialize a counter variable. This expression may optionally declare new variables with var or let keywords.
 
