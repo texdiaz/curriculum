@@ -35,7 +35,7 @@ console.log('Walking east 20 step');
 It includes the following four important parts
     
 ```javascript
-for ([initialization]; [condition]; [final-expression]){
+for ([initial value]; [condition]; [incremented value]){
     statement
 }
 ```
