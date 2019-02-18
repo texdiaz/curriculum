@@ -29,7 +29,7 @@ Example:
 
  1. You ask "What is your name". For this, use alert and print the next greeting with the user answer.
 
- 2. You ask "What is the main conditional structure?". If that answer is "if" you show "correct", otherwise show "incorrect".
+ 2. You ask "Is the sky blue?". If that answer is "yes" you show "correct", otherwise show "incorrect".
 
  3. You ask "Which is current temperature?" if temperature is less than zero you show "you need a blanket", otherwise show "you are fine".  
 
