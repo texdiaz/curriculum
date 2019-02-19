@@ -1,9 +1,9 @@
 ## Important
-For follow exercise, you'll need use **alert** and **prompt**.
-And you always should use the template for to do exercises.
+To complete this exercise, you'll need to use both **alert** and **prompt** methods.
+Use the template to do your exercises.
 
-- The **prompt(message, defaultOption)** displays a dialog with an optional message prompting the user to input some text.
-  The second parameter is optional.Te second parameter print option for default.
+- **prompt(message, defaultOption)** displays a popup with an optional message prompting the user to input some text.
+  The second parameter is optional. If you provide a default option, this will be the default value of the text input.
 
 Example:
 ```javascript
@@ -27,25 +27,25 @@ Example:
 
 # Quiz(little-kahoot)
 
-- Create one program that show any question and before calculate correct answer.
-The user has score.
-- When the user write a correct answer you add 100 points.
-- when he write a incorrect answer you subtract 100 points.
-- When the user finish show the score.
+- Create a program that shows the following questions to the user.
+- The user should start with 0 points.
+- If the user answers a question correctly, add 100 points to their score.
+- If the user answers incorrectly, substract 100 points from their score.
+- Once the user has answered all the 5 questions, display the final score.
 
 Questions Example:
 
-1. question: "What data type is a logical data type that can have only the values true or false?"
-correct answer: "boolean".
+1. Question: "What is the name of the character played by Johnny Depp in the Pirates of the Caribbean film series?"
+correct answer: "Jack Sparrow".
 
-2. question: "What is the result of 5 % 2 in javascript?"
-correct answer: "1".
+2. question: "How many books has the Harry Potter saga"
+correct answer: "7".
 
-3. question: "What operator returns a string indicating the type of the unevaluated operand?"
-correct answer: "typeof".
+3. question: "What are the first four digits of Pi?"
+correct answer: "3.1415".
 
-4. question: "What data type is an array of characters?"
-correct answer: "string".
+4. question: "How many countries are there in the world?"
+correct answer: "195".
 
-5. question: "What is the result of console.log(!true)?"
-correct answer: "false".
+5. question: "Who's the current president of the UN?"
+correct answer: "María Fernanda Espinosa Garcés".
