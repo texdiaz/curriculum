@@ -147,3 +147,14 @@ Example:
         console.log(i+". "+shoppingList[i]);
     }
 ```
+
+## Nested Loops
+A composition of loops is called a nested loop. The first loop is usually called the outer loop while the second loop is called the inner loop. The outer loop always executes first, and the inner loop executes inside the outer loop each time the outer loop executes once. Take a look at the example below and visualize how the nested loop works.
+```javascript
+    for (counter = 1; counter < 4; counter++) { // count from 1 to 3 three times
+        console.log("Count "+counter+" time from 1 to 3");
+        for (counterTwo = 1; counterTwo < 4; counterTwo++){
+            console.log(counterTwo);
+        }
+    }
+```
