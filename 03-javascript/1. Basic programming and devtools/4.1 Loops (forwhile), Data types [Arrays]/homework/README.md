@@ -57,7 +57,7 @@ Draw the next character with "for"
 ******
 *******
 ********
-**********
+*********
 ```
 
 ### Exercise 4 - while not is for
