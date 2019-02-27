@@ -38,7 +38,7 @@ console.log("2 x 10 = 20");
 
 ### Exercise 2 - sum
 
- - Write a Java program to sum values of an array.
+ - Write a program to sum values of an array.
 It isn't mandatory to use loops for this exercises.
 
 
@@ -49,16 +49,15 @@ It isn't mandatory to use loops for this exercises.
 ### Exercise 3 - Draw
 Draw the next character with "for"
 ```
-**********
-*********
-********
-*******
-******
-*****
-****
-***
-**
 *
+**
+***
+****
+*****
+******
+*******
+********
+**********
 ```
 
 ### Exercise 4 - while not is for
