@@ -114,3 +114,19 @@ Copy the next code and understand how it works.
     }	
 ```
 
+### Exercise 6 - For loops + Arrays + Concatonating strings
+
+- Using the array named `color`, write a for loop that replaces the `console.logs below
+```javascript
+ let color = ["Blue ", "Green", "Red", "Orange", "Violet", "Indigo", "Yellow "];
+
+```
+
+```javascript
+ console.log("1. Is Green your favorite color?");
+ console.log("2. Is Red your favorite color?");
+ console.log("3. Is Orange your favorite color?");
+ console.log("4. Is Violet your favorite color?");
+ console.log("5. Is Indigo your favorite color?");
+ console.log("6. Is Yellow  your favorite color?");
+```
