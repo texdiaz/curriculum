@@ -2,8 +2,8 @@
 
 ### Exercise 1 - Replace Text
 
-- Replace that with a for loop that does the exact same thing
-- Replace that with a while loop that does the exact same thing
+- Replace this code with a for loop that does the exact same thing
+- Replace this code with a while loop that does the exact same thing
 
 ```javascript
 console.log("I have 0 sandwich");
@@ -19,8 +19,8 @@ console.log("I have 7 sandwich");
 
 ### Exercise 2 - Replace operation
 
-- Replace that with a for loop that does the exact same thing
-- Replace that with a while loop that does the exact same thing
+- Replace this code with a for loop that does the exact same thing
+- Replace this code with a while loop that does the exact same thing
 
 ```javascript
 console.log("2 x 0 = 0");
@@ -38,7 +38,7 @@ console.log("2 x 10 = 20");
 
 ### Exercise 2 - sum
 
- - Write a program to sum values of an array.
+ - Write a program to add the values of an array.
 It isn't mandatory to use loops for this exercises.
 
 
@@ -60,10 +60,10 @@ Draw the next character with "for"
 *********
 ```
 
-### Exercise 4 - while not is for
+### Exercise 4 - while
     Review: While. Loops through a block of code while a specified condition is true.
 
-- 4.1 Copy the following code and see how work
+- 4.1 Copy the following code and see how it works
 ```javascript
 
     let number = 0;
@@ -74,7 +74,7 @@ Draw the next character with "for"
 ```
 
 
-- 4.2 Copy the following code and see how work.
+- 4.2 Copy the following code and see how it works.
 This code only finishes when you answer correctly.
 ```javascript
 
@@ -82,18 +82,18 @@ This code only finishes when you answer correctly.
     while(response !== "yes"){
        response = prompt("Is programming fun?");
     }
-    console.log("yes, you have reason, programming is fun");
+    console.log("yes, programming is fun");
 ```
 
-- 4.3. Now, you create your own code that only finishes when you want it.
-Use while for create one code that only finish when answer correctly two
-questions.
+- 4.3. Now, create your own code that only finishes when it hits a condition you have specified.
+
+Use a while loop to write code that only finish when you correctly answer two questions
 
 
 ### 5. Array + "for".
- When you use loop and array, we obtain one powerful tool.
+ When you use loop and and array, we obtain one powerful tool.
 
-- First, you review about length.
+- First, review length:
 
 - The **length** accessor property represents the length (in elements) of a typed array.
 
@@ -101,19 +101,19 @@ Example
 ```javascript
     let shoppingList = ["bananas","pineapple","water melon","fruit juice"];
 
-    //show you have 4 in the shopping list.
-    console.log("you have "+shoppingList.length+" in the shopping list.");
+    //show you have 4 items in the shopping list.
+    console.log("you have "+shoppingList.length+" items in the shopping list.");
 ```
 
 Now, you can use length with loops.
-Copy the next code and understand how work.
+Copy the next code and understand how it works.
 ```javascript
     let shoppingList = ["bananas","pineapple","water melon","fruit juice"];
 
     for(let i = 0; i < shoppingList.length; i++){
         console.log(i);
         console.log(shoppingList[i]);
-        console.log("in my shopping list i have:"+shoppingList[i]);
+        console.log("in my shopping list, I have:"+shoppingList[i]);
     }
 
 ```
