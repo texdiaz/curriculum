@@ -89,7 +89,7 @@ This code only finishes when you answer correctly.
 
 Use a while loop to write code that only finish when you correctly answer two questions
 
-### 5. Array + "for".	
+### Exercise 5 - Array + "for".	
  When you use loop and and array, we obtain one powerful tool.	
 
  - First, review length:	
