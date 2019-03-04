@@ -90,30 +90,3 @@ This code only finishes when you answer correctly.
 Use a while loop to write code that only finish when you correctly answer two questions
 
 
-### 5. Array + "for".
- When you use loop and and array, we obtain one powerful tool.
-
-- First, review length:
-
-- The **length** accessor property represents the length (in elements) of a typed array.
-
-Example
-```javascript
-    let shoppingList = ["bananas","pineapple","water melon","fruit juice"];
-
-    //show you have 4 items in the shopping list.
-    console.log("you have "+shoppingList.length+" items in the shopping list.");
-```
-
-Now, you can use length with loops.
-Copy the next code and understand how it works.
-```javascript
-    let shoppingList = ["bananas","pineapple","water melon","fruit juice"];
-
-    for(let i = 0; i < shoppingList.length; i++){
-        console.log(i);
-        console.log(shoppingList[i]);
-        console.log("in my shopping list, I have:"+shoppingList[i]);
-    }
-```
-
