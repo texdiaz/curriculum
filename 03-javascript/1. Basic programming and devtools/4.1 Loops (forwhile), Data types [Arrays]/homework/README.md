@@ -115,8 +115,5 @@ Copy the next code and understand how it works.
         console.log(shoppingList[i]);
         console.log("in my shopping list, I have:"+shoppingList[i]);
     }
-
 ```
 
-If you want you can carry on extra work. But for this finish this exercise only ned understand how
-work this code.
