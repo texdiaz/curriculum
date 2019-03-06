@@ -143,7 +143,7 @@ Copy the next code and understand how it works.
 - Given this array of ages. 
 1. Print the sum of all ages
 2. Print the sum of the odd ages (not sum the even).
-2. Print how many ages are odd 
+3. Print how many ages are odd 
 ```javascript
  let ages = [18,19,20,51,5,25,14,31,40,26,99];
 ```
