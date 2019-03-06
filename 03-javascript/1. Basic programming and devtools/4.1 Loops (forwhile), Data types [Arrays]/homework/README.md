@@ -114,11 +114,11 @@ Copy the next code and understand how it works.
     }	
 ```
 
-### Exercise 6 - For loops + Arrays + Concatonating strings
+### Exercise 6 - For loops + Arrays + Concatenating strings
 
-- Using the array named `color`, write a for loop that replaces the `console.logs below
+- Using the array named `colors`, write a for loop that replaces the `console.logs below
 ```javascript
- let color = ["Blue ", "Green", "Red", "Orange", "Violet", "Indigo", "Yellow "];
+ let colors = ["Blue ", "Green", "Red", "Orange", "Violet", "Indigo", "Yellow "];
 
 ```
 
@@ -130,3 +130,30 @@ Copy the next code and understand how it works.
  console.log("5. Is Indigo your favorite color?");
  console.log("6. Is Yellow  your favorite color?");
 ```
+
+### Exercise 7 - Arrays (you can do it without loops)
+
+- Given an empty array named `colors`, add 3 colors to it, print it on console, remove two of them, and print it again
+```javascript
+ let colors = [];
+```
+
+### Exercise 8 - For loops + Arrays
+
+- Given this array of ages. 
+1. Print the sum of all ages
+2. Print the sum of the odd ages (not sum the even).
+3. Print how many ages are odd 
+```javascript
+ let ages = [18,19,20,51,5,25,14,31,40,26,99];
+```
+
+### Exercise 9 - Transfer of content between arrays
+
+- Given this two arrays of colors, transfer the content of the first array in the second and viceversa
+```javascript
+ let colors1 = ["blue","white"];
+ let colors2 = ["green","red"];
+```
+
+Dont hesitate to ask teachers!!
