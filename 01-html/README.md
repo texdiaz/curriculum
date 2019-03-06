@@ -25,9 +25,9 @@ HTML is not concerned about how the content looks. That job is left to CSS.
 
 ##### HTML elements
 
-Every piece of website content is 'wrapped' in an HTML element. An HTML element is usually composed of two tags, an opening tag and a closing tag (though we will see there are exceptions). Content, such as text or other HTML elements, will be displayed within these tags.
+Every piece of website content is 'wrapped' in an HTML element. An HTML element is usually composed of two tags, an opening tag and a closing tag (though we will see there are exceptions). Content, such as text or other HTML elements, will be displayed within these tags. Tags have associated behaviours of the elements. 
 `<p>Text</p>`
-Opening tags can include modifiers, called **attributtes** that modify default behaviour of the element, or add
+Opening tags can include modifiers, called **attributes** that modify default behaviour of the element, or add
 extra information.
 In this case, the `lang` attribute in the `p` tag is telling information about the language of the text.
 ```html
@@ -100,20 +100,18 @@ developers, crucial for [SEO](https://developer.mozilla.org/es/docs/Glossary/SEO
   </ol>
 ```
 - `<div> and <spans>` are containers.
-- `<a href="http://madridforrefugees.org/es/">` The `<a>` tag defines a hyperlink, which is used to take us from one page to another or to a different part of the same page. 
+- `<a href="http://madridforrefugees.org/es/">` The `<a>` tag defines a hyperlink, which is used to take us from one page to another (absolute routes) or to a different part of the same page (relative routes). 
 - `<header>`: A heading section.
 -`<main>`: Principal section of content.
 - `<footer>`: A section at the end of a block.
 - `<nav>`: A navigation menu.
 - `<aside>`: An un related or less important section.
 - `<article>`: An article.
+- `<button>` : A button that tells users they can perform an action. 
 
 And a lot of other tags which you can research [here](https://www.w3schools.com/tags/).
 
-
-**Links**
-Links are very used ways of redirecting users to another place in our website (relative routes)
-or to an external webpage (absolute routes)
+**Example of common HTML structure**
 
 ```html
 <!DOCTYPE html>
@@ -138,11 +136,6 @@ or to an external webpage (absolute routes)
 ```
 
 
-
-
-
-
-
 ## <a name="Comments"></a> 3. Comments
 
 In order to add a comment in html:
@@ -155,14 +148,20 @@ In order to add a comment in html:
 
 ###### Exercise
 
+Create a skeleton of different webpages: 
+    1. A newsletter.
+    2. A shopping page.
+    3. A blog.
 
-
-###### More info
+Can you see the content will be distributed using different sections?
+What will be predominant in a newsletter, `<article></article>` or `<button></button>` ?
+What about a shopping site?
+Can you see the use of different tags?
 
 
 
 * * *
 
 ## References 
-- [Ada Developers Academy]
-- [Curso programación front end Adalab](https://books.adalab.es/curso-programacion-front-end-2018/)
+- [Ada Developers Academy](https://github.com/Ada-Developers-Academy/textbook-curriculum/blob/master/05-html-css/html-intro.md) .
+- [Curso programación front end Adalab](https://books.adalab.es/curso-programacion-front-end-2018/) .
