@@ -19,6 +19,11 @@ HTML is the foundation for EVERY website. Its purpose is to organize content.
 
 HTML is not concerned about how the content looks. That job is left to CSS.
 
+When a web page is loaded, the browser creates a [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model) (Document Object Model). This only means that the browser creates its own image of how our page looks like 
+based on how we structure HTML. That is one of the reasons why having an organized HTML is important.
+Here you can see how a browser gets an image of your page: 
+<img src ="DOM.png">
+
 
 
 ##### 1.1. [Syntax Structure](https://github.com/Ada-Developers-Academy/textbook-curriculum/blob/master/05-html-css/css-intro.md#css-syntax-structure)
@@ -144,6 +149,20 @@ In order to add a comment in html:
 
 <p>This is a paragraph.</p>
 ```
+
+### How to modify default tags
+
+We have seen that tags have their own behaviour, for example a `<button>` by default will be clickable.
+But we also saw that we can change these behaviours. 
+
+There might be cases in which we want to change all behaviours associated with a tag. For instance, we
+might want all fonts in `<body>` to be the same. In this case, selecting `body` will be enough.
+
+However, sometimes we will need only some buttons to be green, some blue, some links to perform an action... 
+The solution to do so is to implement `id` and `class` so that you can control which elements you are **selecting** . 
+
+You will see more about selectors in the CSS section. 
+
 
 
 ###### Exercise
