@@ -92,3 +92,33 @@ If you feel like you want to grasp a little bit deeper, here you have more infor
 - [Understanding Github Workflow](https://guides.github.com/introduction/flow/)
 - [Getting your project in Github](https://guides.github.com/introduction/getting-your-project-on-github/)
 - [Hello World](https://guides.github.com/activities/hello-world/)
+
+### Visual Example
+
+---
+
+Now that you’ve got Git installed, let’s go through a simple exercise together.
+
+(1) In your terminal, create a new directory for this exercise. Then go into your new directory and enter the command `git init`. This tells Git to start watching the changes in the repository (this includes all of the files and folders and sub-folders). Now, any changes you make to any file in the repository will be captured by Git.
+
+![Git init](git1.png)
+(2) `git status` tells you of the status of your repository. If there are no changes, you’ll get this:
+
+![Git status](git2.png)
+(3) Create a file using the `touch` command. Now do `git status` again. This is what it looks like when we have “unstaged” changes. It means we haven’t told git that we want to save the changes.
+
+![Git Status 2](git3.png)
+(4) Now you have to add the file to the staging area with `git add <filename>`. This tells git that we want to save the changes, without actually saving them yet. You can add files separately, or you can add all files in the repository with `git add .`. The color will change:
+
+![Git add](git4.png)
+(5) Next step, confirm all the file changes and save the local repository with `git commit`. This tells Git to save the changes. You will be prompted to enter a message to describe the changes you made. There is a shorthand for this - you can just enter `git commit -m “your message here”`. Each commit has a unique id number, which we will use later. This is what it looks like:
+
+![Git commit](git5.png)
+(6) Why are those commit messages important? They get stored in your log, and they serve to remind you or inform your teammates of the changes you made in each commit. To see the log, enter `git log`. As you can see, for each commit the log records the author, the timestamp, and the message the author left.
+
+![Git Log](git6.png)
+(7) After a while you will accumulate a lot of commits and if you want to see them in a simple list with just the commit ID and the log message, use `git log --oneline`.
+
+![Git Log oneline](git7.png)
+
+This is just a taste of what you can do with Git. Next, you'll do your first exercise grouping all what you have learnt so far. Good luck!
