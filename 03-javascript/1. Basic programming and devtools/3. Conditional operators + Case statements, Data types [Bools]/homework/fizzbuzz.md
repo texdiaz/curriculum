@@ -6,9 +6,9 @@ With this exercise, you'll be practicing both `if...else` and `switch` condition
 
 - Prompt the user for a number
 - If the number is divisible by 3, you should alert `Fizz!` 
-  - (3, 6, 9, 12, 15, etc are divisible by 3)
+  - (3, 6, 9, 12, etc are divisible by 3)
 - If the number is divisible by 5, you should alert `Buzz!`
-  - (5, 10, 15, 20, etc are divisible by 5)
+  - (5, 10, 20, etc are divisible by 5)
 - If the number is divisible both by 3 **and** 5, you should alert `FizzBuzz!` 
   - (15, 30, 45, etc are divisible by 5 **and** 3)
 - Solve this the exercise both with `if...else` and `switch` conditional structures.
@@ -27,9 +27,9 @@ alert('FizzBuzz!')
 
 - Using the same criteria, write a `for` loop that loops through numbers 1 - 100 and
   - If the number is divisible by 3, you should alert `Fizz!`
-    - (3, 6, 9, 12, 15, etc are divisible by 3)
+    - (3, 6, 9, 12 etc are divisible by 3)
   - If the number is divisible by 5, you should alert `Buzz!`
-    - (5, 10, 15, 20, etc are divisible by 5)
+    - (5, 10, 20, etc are divisible by 5)
   - If the number is divisible both by 3 **and** 5, you should alert `FizzBuzz!`
     - (15, 30, 45, etc are divisible by 5 **and** 3)
   - If the number is not divisible by neither 3 nor 5, you should alert `oops!`
