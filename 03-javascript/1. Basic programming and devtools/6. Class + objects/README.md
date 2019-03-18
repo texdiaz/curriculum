@@ -99,7 +99,7 @@ Therefore you can build a lot objects with one class.
 ## Global Variables
 empty
 
-## POJO Plain old object javascript
-empty 
+## POJO Plain Old Javascript Object
+empty
 
 
