@@ -3,7 +3,8 @@
 You do this exercise again but now you know functions.
 You try one different way solution with function.
 An advice when you think that you finish you take one moment and think if you can imagine one better solution.
-The solution is [solution](https://github.com/mfrcodingproject/curriculum/blob/master/03-javascript/1.%20Basic%20programming%20and%20devtools/3.%20Conditional%20operators%20+%20Case%20statements,%20Data%20types%20%5BBools%5D/homework/solution_fizzbuzzWithFunction.md)
+
+The solution is [solution](https://github.com/mfrcodingproject/curriculum/blob/master/03-javascript/1.%20Basic%20programming%20and%20devtools/5.%20Functions%2C%20Scope/homeworks/solution_fizzbuzzWithFunction.md)
 
 With this exercise, you'll be practicing both `if...else` and conditional structures.
 You'll need to use the usual prompt and alert methods that you've been using in class.
