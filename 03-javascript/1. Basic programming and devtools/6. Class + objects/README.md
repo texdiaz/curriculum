@@ -46,7 +46,7 @@ object.execute();
  - **this**. You can use this for share methods and properties in other place in your code.
   (this behaves a little differently in JavaScript compared to other languages).
 
-## Control the access with "This"**.
+## Control the access with "This".
 
  We carry on with "this". We can control the access, this important we only  should show the main methods out our class.
 
