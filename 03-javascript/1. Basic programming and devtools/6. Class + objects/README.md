@@ -188,6 +188,7 @@ The main functionality is share information that simpler way that a common objec
 ## The Syntax
 
 The POJO is design for share information in consequence the syntax is very different.
+Also hace properties and all properties in the POJO always are share.
 
 ```javascript
 let user = {
