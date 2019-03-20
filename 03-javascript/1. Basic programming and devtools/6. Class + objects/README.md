@@ -183,7 +183,7 @@ empty
 ## POJO Plain Old Javascript Object
 
 A POJO (Plain Old Javascript Object) is a object special type.
-The main functionality in this object is share information that simpler way that a common object.
+The main functionality is share information that simpler way that a common object.
 
 ## The Syntax
 
