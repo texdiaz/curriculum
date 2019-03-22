@@ -35,13 +35,14 @@ Ever wonder how much a "lifetime supply" of your favorite snack is? Wonder no mo
 
 
 ```javascript
-class Main{
-	execute(){
-		// JavaScript goes here
+function Main {
+	this.execute = function (){ 
+		//this is one comment
+		//your code
 		console.log("Hello world");
 	}
 }
 new Main().execute();
 ```
 
-[template](https://gist.github.com/jonayGodoy/bb91fab7e696d88ff429e3242a15fe18)
+[template](https://gist.github.com/jonayGodoy/5b2d537ba413809d47888b2a907a879e)
