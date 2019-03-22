@@ -19,8 +19,7 @@ HTML is the foundation for EVERY website. Its purpose is to organize content.
 
 HTML is not concerned about how the content looks. That job is left to CSS.
 
-When a web page is loaded, the browser creates a [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model) (Document Object Model). This only means that the browser creates its own image of how our page looks like 
-based on how we structure HTML. That is one of the reasons why having an organized HTML is important.
+When a web page is loaded, the browser creates a [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model) (Document Object Model). This only means that the browser creates its own image of how our page looks like based on how we structure HTML. That is one of the reasons why having an organized HTML is important.
 Here you can see how a browser gets an image of your page: 
 <img src ="DOM.png">
 
